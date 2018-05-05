@@ -1,0 +1,165 @@
+@import "vars";
+
+.cabecalho{
+  width: $largura-padrao;
+  margin: 0 auto;
+}
+
+.cabecalho-informacao{
+  background-color: $informacao-fundo;
+  overflow: auto;
+}
+
+.cabecalho-informacao a{
+  color: $informacao-link-cor;
+  text-decoration: none;
+  font-size: $informacao-font-size;
+  font-weight: bold;
+}
+
+.cabecalho-informacao a:hover{
+  text-decoration: underline;
+}
+
+.cabecalho-informacao ul{
+  margin: 5px 0;
+}
+.cabecalho-informacao ul li{
+  float: left;
+  list-style: none;
+  padding: 5px 20px;
+  border-left: $informacao-borda;
+}
+.cabecalho-informacao ul li:last-child{
+  border-right: $informacao-borda;
+}
+
+.cabecalho-informacao .informacao-brasil{
+  float:left;
+  width: 100px;
+  padding:10px 0;
+  padding-left: 20px;
+
+  font: bold $informacao-font-size/18px $font-family-padrao;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: $informacao-link-cor;
+}
+.cabecalho-informacao .informacao-brasil img{
+  display: block;
+  float: left;
+  margin-right: 10px;
+}
+.cabecalho-informacao .informacao-brasil span{
+  display: block;
+  float: left;
+  line-height: 20px;
+}
+
+.cabecalho-informacao .informacao-servicos{
+  float: left;
+  width: 320px;
+  padding: 0;
+}
+.cabecalho-informacao .informacao-servicos li{
+  float: left;
+}
+
+.cabecalho-informacao .informacao-links{
+  width: 540px;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+.cabecalho-informacao .informacao-links ul{
+  float: right;
+}
+/*******************************/
+/* FIM DE CABEÇALHO INFORMAÇÃO */
+/*******************************/
+
+/*********************************/
+/* INÍCIO DE CABEÇALHO DESTAQUES */
+/*********************************/
+.cabecalho-destaque{
+  margin: 0;
+  background-color: $destaque-fundo;
+  overflow: auto;
+}
+
+.cabecalho-destaque h1{
+  width: 430px;
+  padding-left: 20px;
+  float: left;
+
+  font-family: $destaque-h1-font-family;
+  font-size: $destaque-h1-font-size;
+  color: $destaque-h1-color;
+}
+
+.cabecalho-destaque .busca{
+  width: 510px;
+  padding-top: 30px;
+  float: right;
+}
+.cabecalho-destaque .busca form{
+  background-color: $destaque-form-fundo;
+  width: 230px;
+  padding: 5px;
+  float: right;
+  margin-right: 20px;
+
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.cabecalho-destaque .busca form input{
+  border: 0;
+  line-height: 18px;
+  font-size: $destaque-busca-input-font-size;
+  color: $destaque-busca-input-color;
+}
+.cabecalho-destaque .busca form input[type="text"]{
+  width: 200px;
+  float: left
+}
+.cabecalho-destaque .busca form input[type="image"]{
+  width: 20px;
+  float: left
+}
+/******************************/
+/* FIM DE CABEÇALHO DESTAQUES */
+/******************************/
+
+/*********************************/
+/* INÍCIO DE CABEÇALHO OUVIDORIA */
+/*********************************/
+.cabecalho-ouvidoria{
+  background-color: $ouvidoria-fundo;
+  margin: 0;
+  overflow: auto;
+}
+.cabecalho-ouvidoria ul{
+  text-align: right;
+  margin: 0;
+  margin-right: 10px;
+  padding: 10px;
+}
+.cabecalho-ouvidoria ul li{
+  list-style: none;
+  display: inline;
+  border-right: $ouvidoria-ul-li-borda;
+  padding: 0px 10px;
+}
+.cabecalho-ouvidoria ul li:last-child{
+  border: none;
+  padding-right: 0;
+}
+.cabecalho-ouvidoria ul li a{
+  color: $ouvidoria-link-color;
+  text-decoration: none;
+  font-size: $ouvidoria-link-font-size;
+}
+/******************************/
+/* FIM DE CABEÇALHO DESTAQUES */
+/******************************/
